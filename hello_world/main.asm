@@ -8,7 +8,6 @@ _start:
     mov r0, #1
     ldr r1, =message
     mov r2, #12
-
     swi 0
     
     mov r7, #0x1
